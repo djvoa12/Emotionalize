@@ -1,0 +1,37 @@
+html, body {
+  height, width: 100%;
+  background: rgb(20,20,20);
+}
+nav {
+  height: 60px;
+  width: 100%;
+  background: black;
+}
+.nav-content {
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+}
+#jumbotron {
+  height: 400px;
+  width: 100%;
+  background: gray;
+}
+h1 {
+  text-align: center;
+  color: teal;
+  margin: 0;
+}
+button {
+  height: 50px;
+  width: 170px;
+  outline: none;
+  border: 2px solid white;
+  background: black;
+  background: rgb(20,20,20);
+  color: white;
+}
+button:hover {
+  background: white;
+  color: black;
+};
