@@ -1,18 +1,14 @@
 App = Ember.Application.create();
 
 App.Router.map(function() {
-  // put your routes here
+  this.route("tourdates");
+  this.resource("genres", function() {
+    this.resource("genre", { path: "/:genre_id"});
+  });
 });
 
 App.IndexRoute = Ember.Route.extend({
   model: function() {
     return ['red', 'yellow', 'blue'];
   }
-});
-
-App.Router.map(function() {
-  this.route("upload");
-  this.resource("flights", function() {
-    this.resource("flight", { path: "/:flight_id"});
-  });
 });
