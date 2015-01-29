@@ -1,0 +1,53 @@
+html, body {
+  height, width: 100%;
+  background: rgb(29,29,29);
+}
+* {
+  font-family: 'Righteous', cursive;
+}
+a, button {
+  outline: none;
+  text-decoration: none;
+}
+nav {
+  height: 60px;
+  width: 100%;
+  -webkit-transition: background-color 0.5s ease-in 0.2s;
+  -moz-transition: background-color 0.5s ease-in 0.2s;
+  -o-transition: background-color 0.5s ease-in 0.2s;
+  -ms-transition: background-color 0.5s ease-in 0.2s;
+  transition: background-color 0.5s ease-in 0.2s;
+}
+nav:hover {
+    background: white;
+    -webkit-transition: background-color 0.5s ease-in 0.2s;
+    -moz-transition: background-color 0.5s ease-in 0.2s;
+    -o-transition: background-color 0.5s ease-in 0.2s;
+    -ms-transition: background-color 0.5s ease-in 0.2s;
+    transition: background-color 0.5s ease-in 0.2s;
+}
+nav:hover .nav-content a {
+  color: black;
+  -webkit-transition-property: color, text;
+  -webkit-transition-duration: 0.5s, 0.5s;
+  -webkit-transition-timing-function: linear, ease-in;
+  transition-delay: 0.2s;
+}
+.nav-content {
+  display: inline-block;
+  height: 60px;
+}
+.nav-content a {
+  color: white;
+  line-height: 60px;
+  margin: 0 12px;
+  padding: 0;
+  font-size: 18px;
+  -webkit-transition-property: color, text;
+  -webkit-transition-duration: 0.5s, 0.5s;
+  -webkit-transition-timing-function: linear, ease-in;
+  transition-delay: 0.2s;
+}
+.nav-content:hover {
+  background-color: #ededed;
+}
