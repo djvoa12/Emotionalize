@@ -1,37 +1,119 @@
-html, body {
-  height, width: 100%;
-  background: rgb(20,20,20);
-}
-nav {
-  height: 60px;
-  width: 100%;
-  background: black;
-}
-.nav-content {
-  color: white;
-  display: inline-block;
-  vertical-align: middle;
-}
 #jumbotron {
-  height: 400px;
+  position: relative;
+  height: 500px;
   width: 100%;
-  background: gray;
+}
+#jumbotron a {
+  z-index: 9999;
+}
+#headline {
+  color: white;
+  margin: -35px 0 0 -207.5px;
+  top: 60px;
+  left: 50%;
+  position: absolute;
+  font-size: 70px;
+  z-index: 9999;
+}
+#button-discover, #button-feelit {
+  height: 200px;
+  width: 200px;
+  outline: none;
+  background: rgba(224,224,224,0.35);
+  color: white;
+  border-radius: 50%;
+  border: none;
+  font-size: 28px;
+  z-index: 9999;
+}
+#button-discover:hover, #button-feelit:hover {
+  background: rgba(224,224,224,0.9);;
+  color: rgb(29,29,29);
+}
+#maxim {
+  font-family: 'Playball', cursive;
+  font-size: 70px;
+  text-align: center;
+  padding: 24px;
+  margin: 0;
+  color: #D1DBDD;
+  background: linear-gradient(to right, rgba(255, 255, 255, .08),  rgba(255, 255, 255, .6));
 }
 h1 {
-  text-align: center;
-  color: teal;
-  margin: 0;
-}
-button {
-  height: 50px;
-  width: 170px;
-  outline: none;
-  border: 2px solid white;
-  background: black;
-  background: rgb(20,20,20);
   color: white;
+  font-size: 64px;
+  text-align: center;
 }
-button:hover {
-  background: white;
-  color: black;
-};
+#button-discover {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  margin: -100px 0 0 -100px;
+}
+#button-feelit {
+  position: absolute;
+  right: 20%;
+  top: 50%;
+  margin: -100px -100px 0 0;
+}
+#slick {
+  height: 500px;
+  width: 100%;
+}
+#slick div {
+  color: white;
+  display: inline-block;
+  width: 100%;
+  height: 500px;
+}
+#image1 {
+  background: url(../images/image5.jpg) no-repeat center;
+  background-size: cover;
+}
+#image2 {
+  background: url(../images/image2.jpg) no-repeat bottom;
+  background-size: cover;
+}
+#image3 {
+  background: url(../images/image3.jpg) no-repeat bottom;
+  background-size: cover;
+}
+#image4 {
+  background: url(../images/image4.jpg) no-repeat center;
+  background-size: cover;
+}
+#image5 {
+  background: url(../images/image1.jpg) no-repeat bottom;
+  background-size: cover;
+}
+#image6 {
+  background: url(../images/image6.jpg) no-repeat bottom;
+  background-size: cover;
+}
+#image7 {
+  background: url(../images/image7.jpg) no-repeat bottom;
+  background-size: cover;
+}
+#image8 {
+  background: url(../images/image8.jpg) no-repeat bottom;
+  background-size: cover;
+}
+#image9 {
+  background: url(../images/image9.jpg) no-repeat bottom;
+  background-size: cover;
+}
+#mission {
+  width: 500px;
+  height: 200px;
+  margin: 36px auto;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  line-height: 40px;
+}
+#span {
+  color: rgb(238, 91, 91);
+}
+.span {
+  color: rgb(135, 198, 241);
+}
