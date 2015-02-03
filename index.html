@@ -18,6 +18,18 @@
     <link href='http://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
   </head>
   <body>
+    <script type="text/x-handlebars">
+      <nav>
+        {{#link-to "index" class="nav-content"}}emotionalize{{/link-to}}
+        {{#link-to "discover" class="nav-content"}}discover{{/link-to}}
+        {{#link-to "feelit" class="nav-content"}}feel It{{/link-to}}
+      </nav>
+      {{outlet}}
+      <div id="note-pad">Note Pad</div>
+      <div id="note" contenteditable="true">Write down your favorites!</div>
+      <footer></footer>
+    </script>
+
 
 
 
