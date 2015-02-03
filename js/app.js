@@ -70,6 +70,13 @@ App.DiscoverView = Ember.View.extend({
       $('#left-scroll').hide();
       $('#right-scroll').hide();
     });
+
+    $('.genres').click(function(){
+      $('#choose-genre').hide();
+      $('.sub-genres').removeClass('active');
+      var genre = $(this).data('genre');
+      $(genre).addClass('active');
+    });
   }
 });
 
