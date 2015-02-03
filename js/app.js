@@ -55,4 +55,9 @@ App.IndexView = Ember.View.extend({
   }
 });
 
+App.DiscoverView = Ember.View.extend({
+  templateName: 'discover',
+  didInsertElement : function(){
+  }
+});
 
