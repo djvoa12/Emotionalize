@@ -77,6 +77,16 @@ App.DiscoverView = Ember.View.extend({
       var genre = $(this).data('genre');
       $(genre).addClass('active');
     });
+
+    $('.sub-genres div').click(function(){
+      var genre = $(this).text();
+      $(this).addClass('active');
+
+      $('#glass').hide();
+      $('#player').toggleClass('active');
+      $('#controls').show();
+      embedTrack(genre);
+    });
   }
 });
 
