@@ -40,6 +40,14 @@ App.IndexView = Ember.View.extend({
       });
     }
 
+    findTracks('darkstep');
+    findTracks('dnb');
+    findTracks('funkstep');
+    findTracks('hardstep');
+    findTracks('liquid funk');
+    findTracks('neurofunk');
+    findTracks('techstep');
+
     findTracks('brostep');
     findTracks('chillstep');
     findTracks('drumstep');
@@ -48,12 +56,28 @@ App.IndexView = Ember.View.extend({
     findTracks('melodic dubstep');
     findTracks('ragestep');
 
+    findTracks('chillwave');
+    findTracks('dubtronica');
+    findTracks('electronic');
+    findTracks('electronica');
+    findTracks('folktronica');
+    findTracks('funktronica');
+
     findTracks('complextro');
     findTracks('deep house');
     findTracks('dutch house');
     findTracks('house');
     findTracks('progressive house');
     findTracks('tech house');
+
+    findTracks('acid techno');
+    findTracks('dub techno');
+    findTracks('hard techno');
+    findTracks('minimal techno');
+    findTracks('nortec');
+    findTracks('schranz');
+
+    findTracks('trap');
   }
 });
 
