@@ -119,10 +119,10 @@ i {
 .genre7:hover { background: rgb(235, 136, 160); }
 .genre8:hover { background: rgb(135, 198, 241); }
 
-#dubstep-genre, #house-genre {
+#dnb-genre, #dubstep-genre, #electronic-genre, #house-genre, #techno-genre, #trap-genre {
   display: none;
 }
-#dubstep-genre.active, #house-genre.active, #player.active {
+#dnb-genre.active, #dubstep-genre.active, #electronic-genre.active, #house-genre.active, #player.active, #techno-genre.active, #trap-genre.active {
   display: block;
 }
 #player {
