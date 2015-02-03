@@ -145,7 +145,7 @@ i {
   color: white;
 }
 #back, #past-tracks {
-  height: 38px;
+  height: 42px;
   width: 150px;
   font-size: 18px;
   top: 0;
@@ -157,10 +157,12 @@ i {
 #back {
   margin: auto 0 auto -79px;
   left: 29%;
+  border-radius: 10px 0 0 10px;
 }
 #past-tracks {
   margin: auto -79px auto 0;
   right: 29%;
+  border-radius: 0 10px 10px 0;
 }
 #next {
   height: 100%;
