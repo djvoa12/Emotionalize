@@ -47,3 +47,53 @@ i {
 #techno { background: url(../images/techno.jpg); }
 #trap { background: url(../images/trap.jpg); }
 
+#glass {
+  position: relative;
+  width: 600px;
+  min-height: 300px;
+  margin: 36px auto 108px;
+  background: rgba(209, 219, 221,0.4);
+  box-shadow: inset 0 0 1em rgba(209, 219, 221,0.8);
+}
+#choose-genre {
+  line-height: 300px;
+  text-align: center;
+  font-size: 42px;
+  color: white;
+  font-family: 'Black Ops One', cursive;
+  margin: 0;
+}
+#upper-left,#upper-right,#lower-left,#lower-right {
+  position: absolute;
+  border-radius: 50%;
+  background: rgb(87, 87, 97);
+  box-shadow: inset 0 0 1em rgba(209, 219, 221,0.8);
+}
+#upper-left {
+  width: 50px;
+  height: 50px;
+  top: 50px;
+  left: 50px;
+  margin: -25px 0 0 -25px;
+}
+#upper-right {
+  width: 50px;
+  height: 50px;
+  top: 50px;
+  right: 50px;
+  margin: -25px -25px 0 0;
+}
+#lower-left {
+  width: 50px;
+  height: 50px;
+  bottom: 50px;
+  left: 50px;
+  margin: 0 0 -25px -25px;
+}
+#lower-right {
+  width: 50px;
+  height: 50px;
+  bottom: 50px;
+  right: 50px;
+  margin: 0 -25px -25px 0;
+}
