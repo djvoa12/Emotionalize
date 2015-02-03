@@ -8,6 +8,8 @@ App.Router.map(function() {
 var playlist = {};
 var playedTracks = [];
 var playingTrack;
+var iframeElement;
+var widget;
 
 App.IndexView = Ember.View.extend({
   templateName: 'index',
