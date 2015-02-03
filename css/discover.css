@@ -175,3 +175,24 @@ i {
 #next:hover {
   background: rgb(238, 91, 91);
 }
+#past-tracks-carousel {
+  display: none;
+  position: relative;
+  width: 70%;
+  height: 110px;
+  background: rgba(224,224,224,0.1);
+  padding: 0 15px;
+  white-space: nowrap;
+  overflow: auto;
+  margin: 0 auto 12px;
+}
+.past-track {
+  display: inline-block;
+  height: 80px;
+  margin: 15px 5px;
+  width: 120px;
+  background: white;
+  font-size: 8px;
+  color: black;
+  overflow: auto;
+}
