@@ -1,6 +1,7 @@
 html, body {
   height, width: 100%;
-  background: rgb(29,29,29);
+  max-width: 1280px;
+  background: url(../images/binding_dark.png) repeat;
 }
 * {
   font-family: 'Righteous', cursive;
