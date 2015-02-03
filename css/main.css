@@ -58,3 +58,32 @@ footer {
   height: 60px;
   background: rgb(29,29,29);
 }
+#note-pad {
+  width: 600px;
+  margin: 0 auto;
+  height: 40px;
+  background: rgb(50,50,50);
+  color: #D1DBDD;
+  font-size: 20px;
+  border-radius: 50% 50% 0 0;
+  text-align: center;
+  line-height: 40px;
+}
+#note-pad:hover {
+  color: white;
+  background: #D1DBDD;
+}
+#note {
+  display: none;
+  height: 230px;
+  width: 680px;
+  border: 10px solid rgb(50,50,50);
+  margin: 0 auto;
+  background: white;
+  background: rgba(209, 219, 221,0.4);
+  padding: 20px 25px;
+  color: white;
+  font-size: 28px;
+  overflow: auto;
+  outline: 0px solid transparent;
+}
