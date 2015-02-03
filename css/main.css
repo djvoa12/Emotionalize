@@ -21,14 +21,14 @@ nav {
   transition: background-color 0.5s ease-in 0.2s;
 }
 nav:hover {
-    background: white;
-    -webkit-transition: background-color 0.5s ease-in 0.2s;
-    -moz-transition: background-color 0.5s ease-in 0.2s;
-    -o-transition: background-color 0.5s ease-in 0.2s;
-    -ms-transition: background-color 0.5s ease-in 0.2s;
-    transition: background-color 0.5s ease-in 0.2s;
+  background: white;
+  -webkit-transition: background-color 0.5s ease-in 0.2s;
+  -moz-transition: background-color 0.5s ease-in 0.2s;
+  -o-transition: background-color 0.5s ease-in 0.2s;
+  -ms-transition: background-color 0.5s ease-in 0.2s;
+  transition: background-color 0.5s ease-in 0.2s;
 }
-nav:hover .nav-content a {
+nav:hover .nav-content {
   color: black;
   -webkit-transition-property: color, text;
   -webkit-transition-duration: 0.5s, 0.5s;
@@ -38,12 +38,9 @@ nav:hover .nav-content a {
 .nav-content {
   display: inline-block;
   height: 60px;
-}
-.nav-content a {
   color: white;
   line-height: 60px;
-  margin: 0 12px;
-  padding: 0;
+  padding: 0 12px;
   font-size: 18px;
   -webkit-transition-property: color, text;
   -webkit-transition-duration: 0.5s, 0.5s;
