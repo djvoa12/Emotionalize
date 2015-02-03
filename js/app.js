@@ -24,6 +24,10 @@ App.IndexView = Ember.View.extend({
       $('#note').get().hideFocus = true;
       $('#note').slideToggle('slow');
     });
+
+    SC.initialize({
+      client_id: '470675f330cce425f111481f1ed69b09'
+    });
   }
 });
 
