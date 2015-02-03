@@ -40,3 +40,10 @@ i {
   margin: 60px 22px;
   z-index: 201;
 }
+#dnb { background: url(../images/dnb.jpg); }
+#dubstep { background: url(../images/dubstep.jpg); }
+#electronic { background: url(../images/electronic.jpg); }
+#house { background: url(../images/house.jpg); }
+#techno { background: url(../images/techno.jpg); }
+#trap { background: url(../images/trap.jpg); }
+
