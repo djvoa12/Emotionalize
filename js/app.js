@@ -28,6 +28,15 @@ App.IndexView = Ember.View.extend({
     SC.initialize({
       client_id: '470675f330cce425f111481f1ed69b09'
     });
+
+    function findTracks(genre) {
+      SC.get('/tracks', {
+        genres: genre,
+        limit: 150
+      }, function(tracks){
+        playlist[genre] = tracks;
+      });
+    }
   }
 });
 
