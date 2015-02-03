@@ -97,3 +97,31 @@ i {
   right: 50px;
   margin: 0 -25px -25px 0;
 }
+.sub-genres {
+  width: 400px;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+.sub-genres div {
+  text-align: center;
+  height: 50px;
+  font-size: 28px;
+  line-height: 50px;
+  font-family: 'Black Ops One', cursive;
+  color: white;
+}
+.genre1:hover { background: rgb(238, 91, 91); }
+.genre2:hover { background: rgb(173,216,230); }
+.genre3:hover { background: rgb(169, 216, 41); }
+.genre4:hover { background: rgb(255, 160, 122); }
+.genre5:hover { background: rgb(221, 160, 220); }
+.genre6:hover { background: rgb(183, 195, 209); }
+.genre7:hover { background: rgb(235, 136, 160); }
+.genre8:hover { background: rgb(135, 198, 241); }
+
+#dubstep-genre, #house-genre {
+  display: none;
+}
+#dubstep-genre.active, #house-genre.active, #player.active {
+  display: block;
+}
