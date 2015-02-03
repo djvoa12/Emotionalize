@@ -62,6 +62,14 @@ App.DiscoverView = Ember.View.extend({
       visibleHotSpotBackgrounds: "",
       manualContinuousScrolling: true
     });
+
+    $('#carousel').hover(function(){
+      $('#left-scroll').show();
+      $('#right-scroll').show();
+    },function() {
+      $('#left-scroll').hide();
+      $('#right-scroll').hide();
+    });
   }
 });
 
