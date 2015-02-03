@@ -125,3 +125,9 @@ i {
 #dubstep-genre.active, #house-genre.active, #player.active {
   display: block;
 }
+#player {
+  display: none;
+  width: 70%;
+  height: 400px;
+  margin: 0 auto 108px;
+}
