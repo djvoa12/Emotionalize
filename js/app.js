@@ -19,6 +19,11 @@ App.IndexView = Ember.View.extend({
       autoplaySpeed: 3000,
       arrows: false
     });
+
+    $('#note-pad').click(function(){
+      $('#note').get().hideFocus = true;
+      $('#note').slideToggle('slow');
+    });
   }
 });
 
