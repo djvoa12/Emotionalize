@@ -50,3 +50,6 @@ nav:hover .nav-content {
 .nav-content:hover {
   background-color: #ededed;
 }
+.header {
+  margin: 25px 0;
+}
