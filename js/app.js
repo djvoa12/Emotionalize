@@ -37,6 +37,21 @@ App.IndexView = Ember.View.extend({
         playlist[genre] = tracks;
       });
     }
+
+    findTracks('brostep');
+    findTracks('chillstep');
+    findTracks('drumstep');
+    findTracks('dubstep');
+    findTracks('lovestep');
+    findTracks('melodic dubstep');
+    findTracks('ragestep');
+
+    findTracks('complextro');
+    findTracks('deep house');
+    findTracks('dutch house');
+    findTracks('house');
+    findTracks('progressive house');
+    findTracks('tech house');
   }
 });
 
