@@ -5,44 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
     <title>Emotionalize</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/feelit.css">
     <link rel="stylesheet" href="css/discover.css">
     <link rel="stylesheet" href="css/splash.css">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/slick/slick.css"/>
+    <link rel="stylesheet" href="vendor/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="vendor/Smooth-Div-Scroll/css/smoothDivScroll.css"/>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <script type="text/x-handlebars">
-      <nav>
-        <div class="nav-content">Emotionalize</div>
-        <div class="nav-content">Discover</div>
-        <div class="nav-content">Feel It</div>
-      </nav>
-      {{outlet}}
-    </script>
 
-    <script type="text/x-handlebars" id="index">
-      <div id="jumbotron">
-        <h1>Emotionalize</h1>
-      </div>
-      <h3 id="maxim">Transcend your emotions.</h2>
-      {{#link-to "discover"}}<button id="button-discover">DISCOVER</button>{{/link-to}}
-      {{#link-to "feelit"}}<button id="button-feelit">FEEL IT</button>{{/link-to}}
-    </script>
 
-    <script type="text/x-handlebars" id="discover">
-      <
-    </script>
 
-    <script type="text/x-handlebars" id="feelit">
-    </script>
-
-    <script src="js/libs/jquery-1.10.2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="vendor/Smooth-Div-Scroll/js/jquery-ui-1.10.3.custom.min.js"></script>
     <script src="js/libs/handlebars-v2.0.0.js"></script>
     <script src="js/libs/ember-1.9.1.js"></script>
     <script src="js/app.js"></script>
     <!-- to activate the test runner, add the "?test" query string parameter -->
     <script src="tests/runner.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+
+    <script type="text/javascript" src="vendor/Smooth-Div-Scroll/js/jquery.kinetic.min.js"></script>
+    <script type="text/javascript" src="vendor/Smooth-Div-Scroll/js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="vendor/Smooth-Div-Scroll/js/jquery.smoothdivscroll-1.3-min.js"></script>
+    <script src="//connect.soundcloud.com/sdk.js"></script>
   </body>
 </html>
