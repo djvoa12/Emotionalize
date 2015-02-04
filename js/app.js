@@ -10,6 +10,10 @@ var playedTracks = [];
 var playingTrack;
 var iframeElement;
 var widget;
+var request;
+var requestEvents;
+var artistInfo;
+var upcomingShows;
 
 App.IndexView = Ember.View.extend({
   templateName: 'index',
