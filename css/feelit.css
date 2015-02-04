@@ -38,8 +38,7 @@ form {
   background: rgba(209, 219, 221, 0.8);
 }
 #upcoming-events {
-  width: 70%;
-  min-width: 800px;
+  width: 700px;
   min-height: 300px;
   height: auto;
   margin: 0 auto;
