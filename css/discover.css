@@ -195,3 +195,12 @@ i {
   width: 120px;
   background: rgba(209, 219, 221, 0.8);
 }
+.past-track p {
+  padding: 0 5px;
+  background: rgba(220,220,220,0.4);
+  font-size: 18px;
+  line-height: 30px;
+  margin: 25px 0;
+  color: white;
+  overflow: auto;
+}
