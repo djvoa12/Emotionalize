@@ -59,3 +59,43 @@ form {
   height: 120px;
   width: 100%;
 }
+.event-name, .event-type, .location, .date, .time {
+  position: absolute;
+  margin: 0;
+}
+.event-name {
+  color: white;
+  height: 24px;
+  width: 575px;
+  top: 10px;
+  left: 20px;
+  font-size: 20px;
+}
+.event-type {
+  color: rgb(173,216,230);
+  height: 18px;
+  width: auto;
+  top: 13px;
+  right: 20px;
+}
+.location {
+  color: rgb(183, 195, 209);
+  height: 20px;
+  width: 400px;
+  top: 65px;
+  left: 250px;
+}
+.date {
+  color: rgb(183, 195, 209);
+  height: 20px;
+  width: 400px;
+  top: 65px;
+  left: 50px;
+}
+.time {
+  color: rgb(183, 195, 209);
+  height: 20px;
+  width: 400px;
+  top: 90px;
+  left: 50px;
+}
