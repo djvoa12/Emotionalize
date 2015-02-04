@@ -5,7 +5,7 @@ html, body {
 * {
   font-family: 'Righteous', cursive;
 }
-a, button {
+a, button, input {
   outline: none;
   text-decoration: none;
 }
