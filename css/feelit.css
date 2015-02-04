@@ -43,3 +43,12 @@ form {
 #search-artist-button:hover {
   background: rgba(209, 219, 221, 0.8);
 }
+#upcoming-events {
+  display: none;
+  width: 70%;
+  min-width: 400px;
+  min-height: 300px;
+  height: auto;
+  margin: 0 auto;
+  border: 3px solid white;
+}
