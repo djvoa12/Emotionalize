@@ -228,7 +228,7 @@ App.FeelitView = Ember.View.extend({
         var time = upcomingEvent["start"]["time"];
 
         $('#upcoming-events').show();
-        $('#upcoming-events').append("<div class='upcoming-event'><p class='event-name'>" + eventName + "</p><p class='event-type'>" + eventType + "</p><p class='location'>" + location + "</p><p class='date'>" + date + "</p><p class='time'>" + time + "</p></div>");
+        $('#upcoming-events').append("<hr><div class='upcoming-event'><p class='event-name'>" + eventName + "</p><p class='event-type'>" + eventType + "</p><p class='location'>Location: " + location + "</p><p class='date'>Date: " + date + "</p><p class='time'>Time: " + time + "</p></div>");
       });
     }
 
