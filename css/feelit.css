@@ -99,3 +99,11 @@ form {
   top: 90px;
   left: 50px;
 }
+hr {
+  border: 2px solid white;
+  width: 660px;
+  margin: 0 auto;
+}
+hr:first-child {
+  display: none;
+}
