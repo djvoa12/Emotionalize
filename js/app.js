@@ -197,7 +197,7 @@ App.FeelitView = Ember.View.extend({
       request.done(function(response1) {
         artistInfo = response1;
         if (response1["resultsPage"]["results"]["artist"] === undefined) {
-          $('#upcoming-events').append("<p>Artist Not Found</p>");
+          $('#upcoming-events').append("<p id='error'>Artist Not Found</p>");
         }
         else {
           var artistId = response1["resultsPage"]["results"]["artist"][0].id
