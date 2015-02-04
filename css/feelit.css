@@ -15,3 +15,31 @@ form {
   color: rgb(173,216,230);
   margin: 0 0 36px 0;
 }
+#search-artist-label, #search-artist-input, #search-artist-button {
+  display: block;
+}
+#search-artist-label {
+  margin: 0 auto 16px;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+#search-artist-input {
+  width: 60%;
+  height: 40px;
+  font-size: 28px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+#search-artist-button {
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  margin: 16px auto;
+  background: rgba(209, 219, 221, 0.2);
+  border: 3px solid white;
+  color: white;
+}
+#search-artist-button:hover {
+  background: rgba(209, 219, 221, 0.8);
+}
