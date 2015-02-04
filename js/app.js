@@ -139,6 +139,21 @@ App.DiscoverView = Ember.View.extend({
     $('#past-tracks').click(function(){
       $("#past-tracks-carousel").slideToggle('slow');
     });
+
+    $('#past-tracks-carousel').on('click',"div", function(){
+      var listPastTracks = document.getElementsByClassName('past-track');
+      var indexNumber = $(this).index() + 1;
+
+      var trackTitle = playingTrack["title"];
+      var trackArtwork = playingTrack["artwork_url"];
+      playedTracks.unshift(playingTrack);
+      $("#past-tracks-carousel").prepend("<div class='past-track'><p></p></div>");
+      if (trackArtwork !== null) {
+        $("#past-tracks-carousel").children().eq(0).css('background', "url(" + trackArtwork + ")");
+      }
+      $("#past-tracks-carousel").children().eq(0).find('p').text(trackTitle);
+      embedSpecificTrack(playedTracks[indexNumber]);
+    });
   }
 });
 
