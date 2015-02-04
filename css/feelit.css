@@ -3,3 +3,15 @@ form {
   height: auto;
   margin: 0 auto 300px;
 }
+#banner {
+  height: 87px;
+  padding: 24px;
+  width: 100%;
+  font-family: 'Playball', cursive;
+  color: white;
+  font-size: 70px;
+  background: linear-gradient(to left, rgba(238, 91, 91, 0.1),rgba(255, 255, 255, .5));
+  text-align: center;
+  color: rgb(173,216,230);
+  margin: 0 0 36px 0;
+}
