@@ -208,5 +208,12 @@ App.FeelitView = Ember.View.extend({
         });
       });
     }
+
+    $('#search-artist-button').click(function(e) {
+      e.preventDefault();
+      var artist = $('#search-artist-input').val();
+      getTourInfoByArtist(artist);
+    });
+
   }
 });
