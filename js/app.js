@@ -154,6 +154,12 @@ App.DiscoverView = Ember.View.extend({
       $("#past-tracks-carousel").children().eq(0).find('p').text(trackTitle);
       embedSpecificTrack(playedTracks[indexNumber]);
     });
+
+    function embedSpecificTrack(track) {
+      SC.oEmbed(track.uri, {auto_play: true, color: "#D1DBDD"}, document.getElementById('player'));
+      playingTrack = track;
+      setTimeout(autoNext, 4000);
+    }
   }
 });
 
