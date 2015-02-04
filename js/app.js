@@ -210,6 +210,13 @@ App.FeelitView = Ember.View.extend({
 
       requestEvents.done(function(response2) {
         upcomingShows = response2["resultsPage"]["results"]["event"];
+        displayUpcomingShows(upcomingShows)
+      });
+    }
+
+    function displayUpcomingShows(array) {
+      array.forEach(function(upcomingEvent) {
+
       });
     }
 
