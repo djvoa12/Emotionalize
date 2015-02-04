@@ -167,6 +167,15 @@ App.DiscoverView = Ember.View.extend({
       playingTrack = playlist[genre].splice(random, 1)[0];
       setTimeout(autoNext, 4000);
     }
+
+    function autoNext() {
+      var iframeElement = document.querySelector('iframe');
+      var widget = SC.Widget(iframeElement);
+
+      widget.bind(SC.Widget.Events.FINISH, function(player, data) {
+        $('#next').trigger("click");
+      });
+    }
   }
 });
 
