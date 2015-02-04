@@ -179,3 +179,8 @@ App.DiscoverView = Ember.View.extend({
   }
 });
 
+App.FeelitView = Ember.View.extend({
+  templateName: 'feelit',
+  didInsertElement : function(){
+  }
+});
