@@ -46,10 +46,10 @@ form {
   box-shadow: inset 0 0 1em rgba(209, 219, 221,0.8);
   margin: 36px auto 108px;
 }
-#upcoming-events p, #search-artist {
+#error, #search-artist {
   line-height: 300px;
   text-align: center;
-  font-size: 28px;
+  font-size: 42px;
   color: white;
   font-family: 'Black Ops One', cursive;
   margin: 0;
