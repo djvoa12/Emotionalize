@@ -121,6 +121,20 @@ App.DiscoverView = Ember.View.extend({
       $('#controls').hide();
       $('#glass').show();
     });
+
+    $('#next').click(function(){
+      var trackTitle = playingTrack["title"];
+      var trackArtwork = playingTrack["artwork_url"];
+      playedTracks.unshift(playingTrack);
+      $("#past-tracks-carousel").prepend("<div class='past-track'><p></p></div>");
+      if (trackArtwork !== null) {
+        $("#past-tracks-carousel").children().eq(0).css('background', "url(" + trackArtwork + ")");
+      }
+      $("#past-tracks-carousel").children().eq(0).find('p').text(trackTitle);
+
+      var genre = $('.sub-genres div.active').text();
+      embedTrack(genre);
+    });
   }
 });
 
