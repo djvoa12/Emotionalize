@@ -160,6 +160,13 @@ App.DiscoverView = Ember.View.extend({
       playingTrack = track;
       setTimeout(autoNext, 4000);
     }
+
+    function embedTrack(genre) {
+      var random = Math.floor(Math.random() * playlist[genre].length);
+      SC.oEmbed(playlist[genre][random].uri, {auto_play: true, color: "#D1DBDD"}, document.getElementById('player'));
+      playingTrack = playlist[genre].splice(random, 1)[0];
+      setTimeout(autoNext, 4000);
+    }
   }
 });
 
