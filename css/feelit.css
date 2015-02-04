@@ -54,3 +54,8 @@ form {
   font-family: 'Black Ops One', cursive;
   margin: 0;
 }
+.upcoming-event {
+  position: relative;
+  height: 120px;
+  width: 100%;
+}
