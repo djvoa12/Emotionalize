@@ -135,6 +135,10 @@ App.DiscoverView = Ember.View.extend({
       var genre = $('.sub-genres div.active').text();
       embedTrack(genre);
     });
+
+    $('#past-tracks').click(function(){
+      $("#past-tracks-carousel").slideToggle('slow');
+    });
   }
 });
 
