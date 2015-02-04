@@ -38,11 +38,20 @@ form {
   background: rgba(209, 219, 221, 0.8);
 }
 #upcoming-events {
-  display: none;
   width: 70%;
-  min-width: 400px;
+  min-width: 800px;
   min-height: 300px;
   height: auto;
   margin: 0 auto;
-  border: 3px solid white;
+  background: rgba(209, 219, 221,0.4);
+  box-shadow: inset 0 0 1em rgba(209, 219, 221,0.8);
+  margin: 36px auto 108px;
+}
+#upcoming-events p {
+  line-height: 300px;
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  font-family: 'Black Ops One', cursive;
+  margin: 0;
 }
