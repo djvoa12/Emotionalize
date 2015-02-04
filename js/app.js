@@ -211,12 +211,12 @@ App.FeelitView = Ember.View.extend({
       requestEvents.done(function(response2) {
         upcomingShows = response2["resultsPage"]["results"]["event"];
       });
+    }
 
     $('#search-artist-button').click(function(e) {
       e.preventDefault();
       var artist = $('#search-artist-input').val();
       getTourInfoByArtist(artist);
     });
-
   }
 });
