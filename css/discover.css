@@ -193,8 +193,5 @@ i {
   height: 80px;
   margin: 15px 5px;
   width: 120px;
-  background: white;
-  font-size: 8px;
-  color: black;
-  overflow: auto;
+  background: rgba(209, 219, 221, 0.8);
 }
