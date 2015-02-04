@@ -197,17 +197,20 @@ App.FeelitView = Ember.View.extend({
       request.done(function(response1) {
         artistInfo = response1;
         var artistId = response1["resultsPage"]["results"]["artist"][0].id
-        requestEvents = $.ajax({
-          url: "http://api.songkick.com/api/3.0/artists/" + artistId + "/calendar.json?apikey=AeUCzqlFh26ZK4mL",
-          type: "GET",
-          dataType: 'json'
-        });
-
-        requestEvents.done(function(response2) {
-          upcomingShows = response2["resultsPage"]["results"]["event"];
-        });
+        getUpcomingShows(artistId)
       });
     }
+
+    function getUpcomingShows(artistId) {
+      requestEvents = $.ajax({
+        url: "http://api.songkick.com/api/3.0/artists/" + artistId + "/calendar.json?apikey=AeUCzqlFh26ZK4mL",
+        type: "GET",
+        dataType: 'json'
+      });
+
+      requestEvents.done(function(response2) {
+        upcomingShows = response2["resultsPage"]["results"]["event"];
+      });
 
     $('#search-artist-button').click(function(e) {
       e.preventDefault();
