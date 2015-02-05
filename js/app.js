@@ -188,13 +188,8 @@ App.FeelitView = Ember.View.extend({
   didInsertElement : function(){
 
     function getTourInfoByArtist(artist) {
-      request = $.ajax({
-        url: "http://api.songkick.com/api/3.0/search/artists.json?query=" + artist +"&apikey=AeUCzqlFh26ZK4mL",
-        type: "GET",
-        dataType: 'json'
-      });
-
-      request.done(function(response1) {
+      $.getJSON("http://api.songkick.com/api/3.0/search/artists.json?query=" + artist +"&apikey=AeUCzqlFh26ZK4mL&jsoncallback=?",
+      function(response1){
         artistInfo = response1;
         if (response1["resultsPage"]["results"]["artist"] === undefined) {
           $('#upcoming-events').append("<p id='error'>Artist Not Found</p>");
@@ -207,15 +202,10 @@ App.FeelitView = Ember.View.extend({
     }
 
     function getUpcomingShows(artistId) {
-      requestEvents = $.ajax({
-        url: "http://api.songkick.com/api/3.0/artists/" + artistId + "/calendar.json?apikey=AeUCzqlFh26ZK4mL",
-        type: "GET",
-        dataType: 'json'
-      });
-
-      requestEvents.done(function(response2) {
+      $.getJSON("http://api.songkick.com/api/3.0/artists/" + artistId + "/calendar.json?apikey=AeUCzqlFh26ZK4mL&jsoncallback=?",
+      function(response2){
         upcomingShows = response2["resultsPage"]["results"]["event"];
-        displayUpcomingShows(upcomingShows)
+        displayUpcomingShows(upcomingShows);
       });
     }
 
