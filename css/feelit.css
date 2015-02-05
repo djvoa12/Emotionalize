@@ -50,10 +50,9 @@ form {
   width: 700px;
   min-height: 300px;
   height: auto;
-  margin: 0 auto;
   background: rgba(209, 219, 221,0.4);
   box-shadow: inset 0 0 1em rgba(209, 219, 221,0.8);
-  margin: 36px auto 108px;
+  margin: 18px auto 108px;
 }
 #error, #search-artist {
   line-height: 300px;
