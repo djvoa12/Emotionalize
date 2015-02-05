@@ -35,7 +35,8 @@ form {
   color: white;
 }
 #search-artist-button:hover {
-  background: rgba(209, 219, 221, 0.8);
+  background: rgb(238, 91, 91);
+  border: rgb(238, 91, 91);
 }
 #upcoming-events {
   width: 700px;
