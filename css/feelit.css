@@ -64,48 +64,32 @@ form {
 }
 .upcoming-event {
   position: relative;
-  height: 120px;
-  width: 100%;
-}
-.event-name, .event-type, .location, .date, .time {
-  position: absolute;
+  height: auto;
+  width: 660px;
+  padding: 10px 20px;
   margin: 0;
 }
 .event-name {
   color: white;
-  height: 24px;
+  height: auto;
   width: 575px;
-  top: 10px;
-  left: 20px;
   font-size: 20px;
+  margin: 0;
 }
 .event-type {
+  position: absolute;
   color: rgb(173,216,230);
   height: 18px;
   width: auto;
-  top: 13px;
+  top: 0px;
   right: 20px;
 }
-.location {
+.location, .date, .time {
+  display: block;
   color: rgb(183, 195, 209);
+  margin: 5px 0 5px 35px;
+  width: 300px;
   height: 20px;
-  width: 400px;
-  top: 65px;
-  left: 250px;
-}
-.date {
-  color: rgb(183, 195, 209);
-  height: 20px;
-  width: 400px;
-  top: 65px;
-  left: 50px;
-}
-.time {
-  color: rgb(183, 195, 209);
-  height: 20px;
-  width: 400px;
-  top: 90px;
-  left: 50px;
 }
 hr {
   border: 2px solid white;
