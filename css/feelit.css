@@ -38,14 +38,12 @@ form {
   background: rgb(238, 91, 91);
   border: rgb(238, 91, 91);
 }
-
 #songkick-logo {
   height: 50px;
   width: 180px;
   margin: 0 auto;
   border: 3px solid rgb(173,216,230);
 }
-
 #upcoming-events {
   width: 700px;
   min-height: 300px;
