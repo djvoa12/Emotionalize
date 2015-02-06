@@ -205,7 +205,13 @@ App.FeelitView = Ember.View.extend({
       $.getJSON("http://api.songkick.com/api/3.0/artists/" + artistId + "/calendar.json?apikey=AeUCzqlFh26ZK4mL&jsoncallback=?",
       function(response2){
         upcomingShows = response2["resultsPage"]["results"]["event"];
-        displayUpcomingShows(upcomingShows);
+
+        if (upcomingShows === undefined) {
+          $('#upcoming-events').append("<p id='error'>No Upcoming Events</p>");
+        }
+        else {
+          displayUpcomingShows(upcomingShows);
+        }
       });
     }
 
