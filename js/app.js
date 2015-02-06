@@ -214,13 +214,41 @@ App.FeelitView = Ember.View.extend({
         var eventName = upcomingEvent["displayName"];
         var eventType = upcomingEvent["type"];
         var location = upcomingEvent["location"]["city"];
-        var date = upcomingEvent["start"]["date"];
-        var time = upcomingEvent["start"]["time"];
+        var date = reorderDate(upcomingEvent["start"]["date"]);
+        var time = militaryToStandard(upcomingEvent["start"]["time"]);
         var eventURI = upcomingEvent["uri"];
 
         $('#upcoming-events').show();
         $('#upcoming-events').append("<hr><div class='upcoming-event'><a href=" + eventURI + "><p class='event-name'>" + eventName + "</p></a><p class='event-type'>" + eventType + "</p><p class='date'>Date: " + date + "</p><p class='time'>Time: " + time + "</p><p class='location'>Location: " + location + "</p></div>");
       });
+    }
+
+    function reorderDate(dateString) {
+      var date = dateString.split("-");
+      return [date[1], date[2], date[0]].join("-");
+    }
+
+    function militaryToStandard(value) {
+      if (value === null ){
+        return "TBA"
+      }
+      else {
+        var hour = value.substring(0,2);
+        var minutes = value.substring(3,5);
+        var identifier = 'AM';
+
+        if(hour == 12){
+          identifier = 'PM';
+        }
+        if(hour == 0){
+          hour = 12;
+        }
+        if(hour > 12){
+          hour = hour - 12;
+          identifier = 'PM';
+        }
+        return hour + ':' + minutes + ' ' + identifier;
+      }
     }
 
     $('#search-artist-button').click(function(e) {
