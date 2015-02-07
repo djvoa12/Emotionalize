@@ -191,3 +191,33 @@
     height: 120px;
   }
 }
+
+@media (max-width: 480px) {
+  #jumbotron {
+    height: 250px;
+  }
+  #button-discover, #button-feelit {
+    height: 180px;
+    width: 90px;
+    font-size: 18px;
+    margin: -90px 0 0 0;
+    top: 50%;
+  }
+  #button-discover {
+    border-radius: 0 90px 90px 0;
+  }
+  #button-feelit {
+    border-radius: 90px 0 0 90px;
+  }
+  #maxim {
+    font-size: 38px;
+    padding: 12px;
+  }
+  #mission {
+    width: 350px;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 26px;
+    height: 100px;
+  }
+}
