@@ -179,16 +179,13 @@
     right: 0;
     border-radius: 120px 0 0 120px;
   }
-  #button-discover:hover, #button-feelit:hover {
-    color: rgb(29,29,29);
-  }
   #maxim {
-    font-size: 50px;
+    font-size: 46px;
     padding: 16px;
   }
   #mission {
     width: 400px;
-    margin: 30px auto;
+    margin: 25px auto;
     font-size: 22px;
     line-height: 30px;
     height: 120px;
