@@ -8,12 +8,15 @@
 }
 #headline {
   color: white;
-  margin: -35px 0 0 -207.5px;
+  margin: -35px 0 0 -202px;
   top: 60px;
   left: 50%;
   position: absolute;
   font-size: 70px;
   z-index: 9999;
+  height: 70px;
+  width: 404px;
+  line-height: 70px;
 }
 #button-discover, #button-feelit {
   height: 200px;
