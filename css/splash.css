@@ -164,19 +164,19 @@
     height: 300px;
   }
   #button-discover, #button-feelit {
-    height: 240px;
-    width: 120px;
-    font-size: 24px;
-    margin: -120px 0 0 0;
+    height: 220px;
+    width: 110px;
+    font-size: 22px;
+    margin: -110px 0 0 0;
     top: 50%;
   }
   #button-discover {
     left: 0;
-    border-radius: 0 120px 120px 0;
+    border-radius: 0 110px 110px 0;
   }
   #button-feelit {
     right: 0;
-    border-radius: 120px 0 0 120px;
+    border-radius: 110px 0 0 110px;
   }
   #maxim {
     font-size: 46px;
