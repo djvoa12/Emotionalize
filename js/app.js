@@ -94,11 +94,20 @@ App.DiscoverView = Ember.View.extend({
     });
 
     $('#carousel').hover(function(){
-      $('#left-scroll').show();
-      $('#right-scroll').show();
+      $('#right-scroll').addClass('active');
+      if ($('#carousel').data("right-scroll") == "entered") {
+        $('#left-scroll').addClass('active');
+      }
+      else {
+        $('#right-scroll').mouseenter(function(){
+          $('#left-scroll').addClass('active');
+          $('#right-scroll').css('z-index','200');
+          $('#carousel').data("right-scroll","entered");
+        });
+      }
     },function() {
-      $('#left-scroll').hide();
-      $('#right-scroll').hide();
+      $('#left-scroll').removeClass('active');
+      $('#right-scroll').removeClass('active');
     });
 
     $('.genres').click(function(){
