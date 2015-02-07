@@ -191,6 +191,14 @@
 }
 
 @media (max-width: 480px) {
+  #headline {
+    font-size: 30px;
+    margin: -15px 0 0 -86.5px;
+    top: 30px;
+    height: 30px;
+    line-height: 30px;
+    width: 173px;
+  }
   #jumbotron {
     height: 250px;
   }
