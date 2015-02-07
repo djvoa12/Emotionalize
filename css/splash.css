@@ -115,3 +115,39 @@
 .span {
   color: rgb(135, 198, 241);
 }
+
+@media (max-width: 960px) {
+  #headline {
+    font-size: 50px;
+    margin: -25px 0 0 -144px;
+    top: 50px;
+    height: 50px;
+    line-height: 50px;
+    width: 288px;
+  }
+  #jumbotron {
+    height: 400px;
+  }
+  #button-discover, #button-feelit {
+    height: 150px;
+    width: 150px;
+    font-size: 24px;
+  }
+  #button-discover {
+    margin: -75px 0 0 -75px;
+  }
+  #button-feelit {
+    margin: -75px -75px 0 0;
+  }
+  #maxim {
+    font-size: 60px;
+    padding: 20px;
+  }
+  #mission {
+    width: 500px;
+    margin: 30px auto;
+    font-size: 24px;
+    line-height: 36px;
+    height: 140px;
+  }
+}
