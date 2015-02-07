@@ -216,14 +216,14 @@
     border-radius: 90px 0 0 90px;
   }
   #maxim {
-    font-size: 38px;
-    padding: 12px;
+    font-size: 30px;
+    padding: 10px;
   }
   #mission {
-    width: 350px;
+    width: 80%;
     margin: 20px auto;
     font-size: 18px;
     line-height: 26px;
-    height: 100px;
+    height: auto;
   }
 }
