@@ -151,3 +151,46 @@
     height: 140px;
   }
 }
+
+@media (max-width: 700px) {
+  #headline {
+    font-size: 40px;
+    margin: -20px 0 0 -115.5px;
+    top: 40px;
+    height: 40px;
+    line-height: 40px;
+    width: 231px;
+  }
+  #jumbotron {
+    height: 300px;
+  }
+  #button-discover, #button-feelit {
+    height: 240px;
+    width: 120px;
+    font-size: 24px;
+    margin: -120px 0 0 0;
+    top: 50%;
+  }
+  #button-discover {
+    left: 0;
+    border-radius: 0 120px 120px 0;
+  }
+  #button-feelit {
+    right: 0;
+    border-radius: 120px 0 0 120px;
+  }
+  #button-discover:hover, #button-feelit:hover {
+    color: rgb(29,29,29);
+  }
+  #maxim {
+    font-size: 50px;
+    padding: 16px;
+  }
+  #mission {
+    width: 400px;
+    margin: 30px auto;
+    font-size: 22px;
+    line-height: 30px;
+    height: 120px;
+  }
+}
