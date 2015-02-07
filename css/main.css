@@ -108,3 +108,18 @@ footer {
     font-size: 20px;
   }
 }
+
+@media (max-width: 700px) {
+  #note-pad, #note {
+    display: none;
+  }
+  #creator {
+    font-size: 18px;
+    height: 24px;
+    line-height: 24px;
+    padding: 8px 0;
+  }
+  #footer-player {
+    width: 400px;
+  }
+}
