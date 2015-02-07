@@ -261,7 +261,12 @@ App.FeelitView = Ember.View.extend({
       e.preventDefault();
       $('#upcoming-events').empty();
       var artist = $('#search-artist-input').val();
-      getTourInfoByArtist(artist);
+      if (artist == "") {
+        $('#upcoming-events').append("<p id='error'>Try Again</p>");
+      }
+      else {
+        getTourInfoByArtist(artist);
+      }
     });
   }
 });
