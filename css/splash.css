@@ -42,11 +42,6 @@
   color: #D1DBDD;
   background: linear-gradient(to right, rgba(255, 255, 255, .08),  rgba(255, 255, 255, .6));
 }
-h1 {
-  color: white;
-  font-size: 64px;
-  text-align: center;
-}
 #button-discover {
   position: absolute;
   left: 20%;
