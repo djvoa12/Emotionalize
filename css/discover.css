@@ -27,13 +27,16 @@
   background: #fff;
   opacity: 0.35;
 }
+#left-scroll.active, #right-scroll.active {
+  display: block;
+}
 #left-scroll {
   left: 0;
   z-index: 200;
 }
 #right-scroll {
   right: 0;
-  z-index: 200;
+  z-index: 9999999;
 }
 i {
   color: black;
