@@ -102,8 +102,8 @@
 }
 #mission {
   width: 500px;
-  height: 180px;
-  margin: 36px auto;
+  height: auto;
+  margin: 36px auto 72px;
   color: white;
   font-size: 28px;
   text-align: center;
@@ -145,10 +145,9 @@
   }
   #mission {
     width: 500px;
-    margin: 30px auto;
+    margin: 30px auto 50px;
     font-size: 24px;
     line-height: 36px;
-    height: 140px;
   }
 }
 
