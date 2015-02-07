@@ -55,14 +55,14 @@
   margin: -100px -100px 0 0;
 }
 #slick {
-  height: 500px;
+  height: 100%;
   width: 100%;
 }
 #slick div {
   color: white;
   display: inline-block;
   width: 100%;
-  height: 500px;
+  height: 100%;
 }
 #image1 {
   background: url(../images/image5.jpg) no-repeat center;
