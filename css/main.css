@@ -123,3 +123,9 @@ footer {
     width: 400px;
   }
 }
+
+@media (max-width: 480px) {
+  #footer-player {
+    width: 80%;
+  }
+}
