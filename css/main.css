@@ -50,6 +50,9 @@ nav:hover .nav-content {
   background-color: #ededed;
 }
 .header {
+  color: white;
+  font-size: 64px;
+  text-align: center;
   margin: 25px 0;
 }
 #note-pad {
