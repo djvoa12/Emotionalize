@@ -99,3 +99,12 @@ footer {
   height: 120px;
   margin: 0 auto;
 }
+
+@media (max-width: 960px) {
+  #note {
+    height: 160px;
+    width: 600px;
+    padding: 15px 20px;
+    font-size: 20px;
+  }
+}
