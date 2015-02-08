@@ -283,5 +283,8 @@ iframe {
     height: 340px;
     margin: 0 auto 50px;
   }
+  #controls {
+    margin: 24px auto 12px;
+  }
 }
 
