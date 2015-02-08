@@ -288,3 +288,82 @@ iframe {
   }
 }
 
+@media (max-width: 700px) {
+  #scroller {
+    height: 120px;
+  }
+  #carousel {
+    padding: 0 12px;
+  }
+  .genres {
+    height: 90px;
+    width: 141px;
+    margin: 15px 4px;
+  }
+  #left-scroll, #right-scroll {
+    display: none;
+  }
+  #glass {
+    width: 400px;
+    min-height: 220px;
+    margin: 25px auto;
+  }
+  #choose-genre {
+    line-height: 220px;
+    font-size: 30px;
+  }
+  #upper-left,#upper-right,#lower-left,#lower-right {
+    display: none;
+  }
+  .sub-genres {
+    width: 340px;
+    padding: 25px 0;
+  }
+  .sub-genres div {
+    height: 40px;
+    font-size: 22px;
+    line-height: 40px;
+  }
+  #player {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto 25px;
+  }
+  #controls {
+    margin: 18px auto 12px;
+    width: 400px;
+  }
+  #back, #past-tracks {
+    height: 45px;
+    width: 120px;
+    font-size: 14px;
+  }
+  #back {
+    margin: auto 0 auto -60px;
+    left: 24%;
+  }
+  #past-tracks {
+    margin: auto -60px auto 0;
+    right: 24%;
+  }
+  #next {
+    width: 80px;
+  }
+  #past-tracks-carousel {
+    width: 90%;
+    height: 90px;
+    padding: 0 10px;
+    margin: 0 auto 12px;
+  }
+  .past-track {
+    height: 70px;
+    margin: 10px 5px;
+    width: 100px;
+  }
+  .past-track p {
+    padding: 0 5px;
+    font-size: 14px;
+    line-height: 26px;
+    margin: 22px 0;
+  }
+}
