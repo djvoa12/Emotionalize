@@ -137,6 +137,9 @@ i {
   height: 400px;
   margin: 0 auto 108px;
 }
+iframe {
+  height: 100%;
+}
 #controls {
   display: none;
   position: relative;
