@@ -115,6 +115,8 @@ i {
   font-size: 28px;
   line-height: 50px;
   font-family: 'Black Ops One', cursive;
+}
+.genre1,.genre2,.genre3,.genre4,.genre5,.genre6,.genre7,.genre8 {
   color: white;
 }
 .genre1:hover { background: rgb(238, 91, 91); }
