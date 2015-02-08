@@ -116,6 +116,17 @@ App.DiscoverView = Ember.View.extend({
       });
     }
 
+    $(window).resize(function(){
+      if($(window).width() <= 480) {
+        $("#back").text("Back");
+        $("#past-tracks").text("List");
+      }
+      else {
+        $("#back").text("Back To Menu");
+        $("#past-tracks").text("Past Tracks");
+      }
+    });
+
     $('.genres').click(function(){
       $('#choose-genre').hide();
       $('.sub-genres').removeClass('active');

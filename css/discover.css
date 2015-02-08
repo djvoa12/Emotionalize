@@ -388,9 +388,22 @@ iframe {
   .genre6 { color: rgb(183, 195, 209); }
   .genre7 { color: rgb(235, 136, 160); }
   .genre8 { color: rgb(135, 198, 241); }
+
   #player {
     width: 90%;
     height: 220px;
     margin: 0 auto 20px;
+  }
+  #back, #past-tracks {
+    width: 80px;
+    font-size: 20px;
+  }
+  #back {
+    margin: auto 0 auto -44px;
+    left: 30%;
+  }
+  #past-tracks {
+    margin: auto -44px auto 0;
+    right: 30%;
   }
 }
