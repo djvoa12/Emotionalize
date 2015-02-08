@@ -92,27 +92,29 @@ App.IndexView = Ember.View.extend({
 App.DiscoverView = Ember.View.extend({
   templateName: 'discover',
   didInsertElement : function(){
-    $("#carousel").smoothDivScroll({
-      visibleHotSpotBackgrounds: "",
-      manualContinuousScrolling: true
-    });
+    if($(window).width() > 700) {
+      $("#carousel").smoothDivScroll({
+        visibleHotSpotBackgrounds: "",
+        manualContinuousScrolling: true
+      });
 
-    $('#carousel').hover(function(){
-      $('#right-scroll').addClass('active');
-      if ($('#carousel').data("right-scroll") == "entered") {
-        $('#left-scroll').addClass('active');
-      }
-      else {
-        $('#right-scroll').mouseenter(function(){
+      $('#carousel').hover(function(){
+        $('#right-scroll').addClass('active');
+        if ($('#carousel').data("right-scroll") == "entered") {
           $('#left-scroll').addClass('active');
-          $('#right-scroll').css('z-index','200');
-          $('#carousel').data("right-scroll","entered");
-        });
-      }
-    },function() {
-      $('#left-scroll').removeClass('active');
-      $('#right-scroll').removeClass('active');
-    });
+        }
+        else {
+          $('#right-scroll').mouseenter(function(){
+            $('#left-scroll').addClass('active');
+            $('#right-scroll').css('z-index','200');
+            $('#carousel').data("right-scroll","entered");
+          });
+        }
+      },function() {
+        $('#left-scroll').removeClass('active');
+        $('#right-scroll').removeClass('active');
+      });
+    }
 
     $('.genres').click(function(){
       $('#choose-genre').hide();
