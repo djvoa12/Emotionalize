@@ -21,19 +21,6 @@ App.ApplicationView = Ember.View.extend({
     $('#note-pad').click(function(){
       $('#note').slideToggle('slow');
     });
-  }
-});
-
-App.IndexView = Ember.View.extend({
-  templateName: 'index',
-  didInsertElement : function(){
-    $('#slick').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 3000,
-      arrows: false
-    });
 
     SC.initialize({
       client_id: '470675f330cce425f111481f1ed69b09'
@@ -86,6 +73,19 @@ App.IndexView = Ember.View.extend({
     findTracks('schranz');
 
     findTracks('trap');
+  }
+});
+
+App.IndexView = Ember.View.extend({
+  templateName: 'index',
+  didInsertElement : function(){
+    $('#slick').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      arrows: false
+    });
   }
 });
 
