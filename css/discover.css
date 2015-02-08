@@ -40,15 +40,16 @@
 }
 i {
   color: black;
-  margin: 60px 22px;
+  margin: 64px 22px 56px;
   z-index: 201;
+  height: 78px;
 }
-#dnb { background: url(../images/discover/lg/dnb.jpg); }
-#dubstep { background: url(../images/discover/lg/dubstep.jpg); }
-#electronic { background: url(../images/discover/lg/electronic.jpg); }
-#house { background: url(../images/discover/lg/house.jpg); }
-#techno { background: url(../images/discover/lg/techno.jpg); }
-#trap { background: url(../images/discover/lg/trap.jpg); }
+#dnb { background: url(../images/discover/dnb.jpg); }
+#dubstep { background: url(../images/discover/dubstep.jpg); }
+#electronic { background: url(../images/discover/electronic.jpg); }
+#house { background: url(../images/discover/house.jpg); }
+#techno { background: url(../images/discover/techno.jpg); }
+#trap { background: url(../images/discover/trap.jpg); }
 
 #glass {
   position: relative;
