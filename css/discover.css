@@ -398,16 +398,23 @@ iframe {
   .sub-genres {
     width: 100%;
   }
+  #controls {
+    width: 90%;
+  }
   #back, #past-tracks {
-    width: 80px;
-    font-size: 20px;
+    width: 22%;
+    font-size: 18px;
   }
   #back {
-    margin: auto 0 auto -44px;
-    left: 30%;
+    margin: auto 0 auto -11%;
+    left: 28%;
   }
   #past-tracks {
-    margin: auto -44px auto 0;
-    right: 30%;
+    margin: auto -11% auto 0;
+    right: 28%;
+  }
+  #next {
+    width: 20%;
+    font-size: 22px;
   }
 }
