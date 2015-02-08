@@ -75,3 +75,9 @@ div.scrollableArea
 	width: auto;
 	height: 100%;
 }
+
+@media (max-width: 960px) {
+	div.scrollingHotSpotLeft, div.scrollingHotSpotRight {
+		width: 80px;
+	}
+}
