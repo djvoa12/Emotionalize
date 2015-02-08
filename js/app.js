@@ -15,6 +15,15 @@ var requestEvents;
 var artistInfo;
 var upcomingShows;
 
+App.ApplicationView = Ember.View.extend({
+  templateName: 'application',
+  didInsertElement : function(){
+    $('#note-pad').click(function(){
+      $('#note').slideToggle('slow');
+    });
+  }
+});
+
 App.IndexView = Ember.View.extend({
   templateName: 'index',
   didInsertElement : function(){
@@ -24,11 +33,6 @@ App.IndexView = Ember.View.extend({
       autoplay: true,
       autoplaySpeed: 3000,
       arrows: false
-    });
-
-    $('#note-pad').click(function(){
-      $('#note').get().hideFocus = true;
-      $('#note').slideToggle('slow');
     });
 
     SC.initialize({
