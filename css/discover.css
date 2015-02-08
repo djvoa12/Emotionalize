@@ -213,3 +213,70 @@ iframe {
   color: white;
   overflow: auto;
 }
+
+@media (max-width: 960px) {
+  #scroller {
+    height: 160px;
+  }
+  #carousel {
+    padding: 0 16px;
+  }
+  .genres {
+    height: 130px;
+    width: 203px;
+    margin: 15px 6px;
+  }
+  #left-scroll, #right-scroll {
+    width: 80px;
+  }
+  i {
+    margin: 42px 12px 38px;
+  }
+  #dnb, #dubstep, #electronic, #house, #techno, #trap { background-size: cover; }
+  #glass {
+    width: 500px;
+    min-height: 260px;
+    margin: 36px auto 72px;
+  }
+  #choose-genre {
+    line-height: 260px;
+    font-size: 36px;
+  }
+  #upper-left,#upper-right,#lower-left,#lower-right {
+    width: 36px;
+    height: 36px;
+  }
+  #upper-left {
+    top: 36px;
+    left: 36px;
+    margin: -18px 0 0 -18px;
+  }
+  #upper-right {
+    top: 36px;
+    right: 36px;
+    margin: -18px -18px 0 0;
+  }
+  #lower-left {
+    bottom: 36px;
+    left: 36px;
+    margin: 0 0 -18px -18px;
+  }
+  #lower-right {
+    bottom: 36px;
+    right: 36px;
+    margin: 0 -18px -18px 0;
+  }
+  .sub-genres {
+    width: 350px;
+    padding: 65px 0;
+  }
+  .sub-genres div {
+    height: 44px;
+    font-size: 24px;
+    line-height: 44px;
+  }
+  #player {
+    height: 340px;
+    margin: 0 auto 72px;
+  }
+}
