@@ -112,6 +112,7 @@ i {
 .sub-genres div {
   text-align: center;
   height: 50px;
+  width: 100%;
   font-size: 28px;
   line-height: 50px;
   font-family: 'Black Ops One', cursive;
