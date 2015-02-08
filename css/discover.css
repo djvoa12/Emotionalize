@@ -195,7 +195,8 @@ iframe {
   background: rgba(224,224,224,0.1);
   padding: 0 15px;
   white-space: nowrap;
-  overflow: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
   margin: 0 auto 12px;
 }
 .past-track {
