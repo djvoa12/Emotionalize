@@ -104,6 +104,10 @@ footer {
 }
 
 @media (max-width: 960px) {
+  .header {
+    margin: 20px 0;
+    font-size: 50px;
+  }
   #note {
     height: 160px;
     width: 600px;
