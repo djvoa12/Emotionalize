@@ -214,7 +214,8 @@ iframe {
   line-height: 30px;
   margin: 25px 0;
   color: white;
-  overflow: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 @media (max-width: 960px) {
