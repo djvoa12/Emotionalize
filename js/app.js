@@ -150,6 +150,7 @@ App.DiscoverView = Ember.View.extend({
       $('#player').toggleClass('active');
       $('#controls').hide();
       $('#glass').show();
+      $('#past-tracks-carousel').hide();
     });
 
     $('#next').click(function(){
