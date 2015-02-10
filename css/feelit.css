@@ -104,12 +104,11 @@ hr:first-child {
 @media (max-width: 960px) {
   #banner {
     padding: 20px;
-    width: 100%;
     font-size: 60px;
     margin: 0 0 30px 0;
   }
   form {
-    margin: 0 auto 30px;
+    margin: 0 auto;
   }
   #search-artist-input {
     width: 80%;
