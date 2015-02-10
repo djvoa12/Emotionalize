@@ -47,7 +47,7 @@ form {
   height: auto;
   background: rgba(209, 219, 221,0.4);
   box-shadow: inset 0 0 1em rgba(209, 219, 221,0.8);
-  margin: 18px auto 108px;
+  margin: 18px auto 72px;
 }
 #error, #search-artist {
   line-height: 300px;
