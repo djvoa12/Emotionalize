@@ -72,6 +72,15 @@ App.ApplicationView = Ember.View.extend({
     findTracks('nortec');
     findTracks('schranz');
 
+    findTracks('acid trance');
+    findTracks('dream trance');
+    findTracks('electro trance');
+    findTracks('euro trance');
+    findTracks('hard trance');
+    findTracks('trance');
+    findTracks('uplifting trance');
+    findTracks('vocal trance');
+
     findTracks('trap');
   }
 });
