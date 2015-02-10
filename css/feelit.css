@@ -146,3 +146,57 @@ hr:first-child {
     width: 520px;
   }
 }
+
+@media (max-width: 700px) {
+  #banner {
+    padding: 16px;
+    font-size: 46px;
+    margin: 0 0 24px 0;
+  }
+  #search-artist-input {
+    width: 85%;
+  }
+  #songkick-logo {
+    height: 35px;
+    width: 127px;
+  }
+  #logo-lg {
+    display: none;
+  }
+  #logo-sm {
+    display: block;
+  }
+  #upcoming-events {
+    width: 440px;
+    min-height: 220px;
+    margin: 12px auto 25px;
+    background: rgba(209, 219, 221,0.05);
+    box-shadow: none;
+  }
+  #error, #search-artist {
+    line-height: 220px;
+    font-size: 30px;
+  }
+  .upcoming-event {
+    width: 420px;
+    padding: 6px 10px;
+  }
+  .event-name {
+    width: 350px;
+    font-size: 14px;
+  }
+  .event-type {
+    font-size: 12px;
+    top: 6px;
+    right: 10px;
+  }
+  .location, .date, .time {
+    font-size: 12px;
+    margin: 3px 0px 3px 25px;
+    width: 220px;
+    height: 14px;
+  }
+  hr {
+    width: 420px;
+  }
+}
