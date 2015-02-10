@@ -41,6 +41,9 @@ form {
   width: 180px;
   margin: 0 auto;
 }
+#logo-sm {
+  display: none;
+}
 #upcoming-events {
   width: 700px;
   min-height: 300px;
