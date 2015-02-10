@@ -118,6 +118,8 @@ hr:first-child {
     min-height: 260px;
     height: auto;
     margin: 18px auto 50px;
+    background: rgba(209, 219, 221,0.2);
+    box-shadow: inset 0 0 1em rgba(209, 219, 221,0.4);
   }
   #error, #search-artist {
     line-height: 260px;
