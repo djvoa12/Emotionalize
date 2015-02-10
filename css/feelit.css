@@ -92,7 +92,7 @@ form {
   font-size: 16px;
 }
 hr {
-  border: 2px solid white;
+  border: 2px solid rgba(255,255,255,.6);
   width: 660px;
   margin: 0 auto;
 }
