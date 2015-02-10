@@ -196,3 +196,36 @@ hr:first-child {
     width: 420px;
   }
 }
+
+@media (max-width: 480px) {
+  #banner {
+    padding: 10px;
+    font-size: 30px;
+    margin: 0 0 18px 0;
+  }
+  #search-artist-input {
+    width: 85%;
+  }
+  #upcoming-events {
+    width: 90%;
+    margin: 12px auto 20px;
+  }
+  .upcoming-event {
+    width: 94%;
+    padding: 6px 3%;
+  }
+  .event-name {
+    width: 82%;
+  }
+  .event-type {
+    top: 6px;
+    right: 3%;
+  }
+  .location, .date, .time {
+    margin: 3px 0px 3px 20px;
+    width: auto;
+  }
+  hr {
+    width: 94%;
+  }
+}
