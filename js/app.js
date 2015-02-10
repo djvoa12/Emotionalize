@@ -29,7 +29,7 @@ App.ApplicationView = Ember.View.extend({
     function findTracks(genre) {
       SC.get('/tracks', {
         genres: genre,
-        limit: 150
+        limit: 300
       }, function(tracks){
         playlist[genre] = tracks;
       });
