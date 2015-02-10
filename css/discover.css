@@ -315,6 +315,8 @@ iframe {
     width: 400px;
     min-height: 220px;
     margin: 25px auto;
+    background: rgba(209, 219, 221,0.05);
+    box-shadow: none;
   }
   #choose-genre {
     line-height: 220px;
