@@ -243,7 +243,7 @@ App.FeelitView = Ember.View.extend({
         upcomingShows = response2["resultsPage"]["results"]["event"];
 
         if (upcomingShows === undefined) {
-          $('#upcoming-events').append("<p id='error'>No Upcoming Events</p>");
+          $('#upcoming-events').append("<p id='error'>No Events</p>");
         }
         else {
           displayUpcomingShows(upcomingShows);
