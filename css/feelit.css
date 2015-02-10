@@ -74,15 +74,16 @@ form {
 .event-type {
   position: absolute;
   color: rgb(173,216,230);
-  height: 18px;
+  font-size: 18px;
   width: auto;
-  top: 0px;
+  top: 10px;
   right: 20px;
+  margin: 0;
 }
 .location, .date, .time {
   display: block;
   color: rgb(183, 195, 209);
-  margin: 5px 0 5px 35px;
+  margin: 5px 0px 5px 35px;
   width: 300px;
   height: 20px;
 }
