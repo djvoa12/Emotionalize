@@ -48,7 +48,7 @@ form {
   width: 700px;
   min-height: 300px;
   height: auto;
-  background: rgba(209, 219, 221,0.4);
+  background: rgba(209, 219, 221,0.5);
   box-shadow: inset 0 0 1em rgba(209, 219, 221,0.8);
   margin: 18px auto 72px;
 }
