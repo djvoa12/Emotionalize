@@ -51,6 +51,7 @@ i {
 #electronic { background: url(../images/discover/electronic.jpg); }
 #house { background: url(../images/discover/house.jpg); }
 #techno { background: url(../images/discover/techno.jpg); }
+#trance { background: url(../images/discover/trance.jpg); }
 #trap { background: url(../images/discover/trap.jpg); }
 
 #glass {
@@ -130,10 +131,10 @@ i {
 .genre7:hover { background: rgb(235, 136, 160); }
 .genre8:hover { background: rgb(135, 198, 241); }
 
-#dnb-genre, #dubstep-genre, #electronic-genre, #house-genre, #techno-genre, #trap-genre {
+#dnb-genre, #dubstep-genre, #electronic-genre, #house-genre, #techno-genre, #trance-genre, #trap-genre {
   display: none;
 }
-#dnb-genre.active, #dubstep-genre.active, #electronic-genre.active, #house-genre.active, #player.active, #techno-genre.active, #trap-genre.active {
+#dnb-genre.active, #dubstep-genre.active, #electronic-genre.active, #house-genre.active, #player.active, #techno-genre.active, #trance-genre.active, #trap-genre.active {
   display: block;
 }
 #player {
