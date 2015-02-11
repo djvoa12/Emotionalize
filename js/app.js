@@ -12,6 +12,7 @@ var iframeElement;
 var widget;
 var artistInfo;
 var upcomingShows;
+var subGenres = ['darkstep','dnb','funkstep','hardstep','liquid funk','neurofunk','techstep','brostep','chillstep','drumstep','dubstep','lovestep','melodic dubstep','ragestep','chillwave','dubtronica','electronic','electronica','folktronica','funktronica','complextro','deep house','dutch house','house','progressive house','tech house','acid techno','dub techno','hard techno','minimal techno','nortec','schranz','acid trance','dream trance','electro trance','euro trance','hard trance','trance','uplifting trance','vocal trance','trap'];
 
 App.ApplicationView = Ember.View.extend({
   templateName: 'application',
