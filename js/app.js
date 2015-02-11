@@ -31,7 +31,16 @@ App.ApplicationView = Ember.View.extend({
         limit: 200,
         linked_partitioning: 1
       }, function(tracks){
-        playlist[genre] = tracks;
+        playlist[genre] = tracks["collection"];
+        if (tracks["next_href"] !== undefined) {
+          addMoreTracks(genre, tracks["next_href"]);
+        }
+      });
+    }
+
+    function addMoreTracks(genre, nextPageURI) {
+      SC.get(nextPageURI, function(tracks){
+        playlist[genre] = playlist[genre].concat(tracks["collection"]);
       });
     }
 
