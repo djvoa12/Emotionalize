@@ -44,53 +44,7 @@ App.ApplicationView = Ember.View.extend({
       });
     }
 
-    findTracks('darkstep');
-    findTracks('dnb');
-    findTracks('funkstep');
-    findTracks('hardstep');
-    findTracks('liquid funk');
-    findTracks('neurofunk');
-    findTracks('techstep');
-
-    findTracks('brostep');
-    findTracks('chillstep');
-    findTracks('drumstep');
-    findTracks('dubstep');
-    findTracks('lovestep');
-    findTracks('melodic dubstep');
-    findTracks('ragestep');
-
-    findTracks('chillwave');
-    findTracks('dubtronica');
-    findTracks('electronic');
-    findTracks('electronica');
-    findTracks('folktronica');
-    findTracks('funktronica');
-
-    findTracks('complextro');
-    findTracks('deep house');
-    findTracks('dutch house');
-    findTracks('house');
-    findTracks('progressive house');
-    findTracks('tech house');
-
-    findTracks('acid techno');
-    findTracks('dub techno');
-    findTracks('hard techno');
-    findTracks('minimal techno');
-    findTracks('nortec');
-    findTracks('schranz');
-
-    findTracks('acid trance');
-    findTracks('dream trance');
-    findTracks('electro trance');
-    findTracks('euro trance');
-    findTracks('hard trance');
-    findTracks('trance');
-    findTracks('uplifting trance');
-    findTracks('vocal trance');
-
-    findTracks('trap');
+    subGenres.forEach(findTracks);
   }
 });
 
